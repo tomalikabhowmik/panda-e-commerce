@@ -1,268 +1,382 @@
-body{
-    margin:0;
-    padding:0;
+body {
+    margin: 0;
+    padding: 0;
     font-family: 'Poppins', sans-serif;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
+
 /*header part start*/
-.custom-color{
+.custom-color {
     background-color: #eceaea;
 }
-.header-part ul li a{
+
+.header-part ul li a {
     font-weight: 300;
 }
+
 /*header part end*/
 /*slider part start*/
-.slider-bg{
+.slider-bg {
     background-color: #e6b6c6;
-    padding:30px 40px 30px 40px;
+    padding: 30px 40px 30px 40px;
 }
-.my-content h1{
+
+.my-content h1 {
     font-size: 50px;
     font-weight: 600;
-    color:#555555;
+    color: #555555;
     padding-bottom: 5px;
 }
-.my-content p{
+
+.my-content p {
     font-size: 14px;
     font-weight: 300;
-    color:#755d65;
+    color: #755d65;
     padding-bottom: 5px;
 }
-.my-content h2{
+
+.my-content h2 {
     font-size: 35px;
     font-weight: 600;
-    color:#ff247a;
+    color: #ff247a;
     padding-bottom: 5px;
 }
-.btn-custom{
+
+.btn-custom {
     font-size: 18px;
     font-weight: 400;
-    background-color:#ff247a;
-    color:#ffffff;
-    padding:5px 15px;
+    background-color: #ff247a;
+    color: #ffffff;
+    padding: 5px 15px;
     margin-top: 10px;
 }
-.btn-custom:hover{
-    color:#ffffff;
+
+.btn-custom:hover {
+    color: #ffffff;
 }
+
 /*slider part end*/
 /*categoris part start*/
-.watch-part{
-    background-image:linear-gradient(#f7c05d ,#ec9c05);
-    border-radius: 15px;
-    border-image-slice: 1;
-    padding:5px 20px 5px 0px;
-    margin:40px 0px 30px 0px;
-}
-.watch-part h2{
-    color:#ffffff;
-    font-size: 40px;
-    font-weight: 600;
-}
-.bag-part{
-    background-image:linear-gradient(#e53784 ,#df7dce);
-    border-radius: 15px;
-    border-image-slice: 1;
-    padding:5px 20px 5px 0px;
-    margin:40px 0px 30px 0px;
-}
-.bag-part h2{
-    color:#ffffff;
-    font-size: 40px;
-    font-weight: 600;
-}
-.shoes-part{
-    background-image:linear-gradient(#3a32e1 ,#6380f4);
+.watch-part {
+    background-image: linear-gradient(#fccf7d, #ec9c05);
     border-radius: 15px;
     border-image-slice: 1;
     padding: 5px 20px 5px 0px;
-    margin:40px 0px 30px 0px;
+    margin: 40px 0px 30px 0px;
 }
-.shoes-part h2{
-    color:#ffffff;
+
+.watch-part h2 {
+    color: #ffffff;
     font-size: 40px;
     font-weight: 600;
 }
+
+.bag-part {
+    background-image: linear-gradient(#e53784, #df7dce);
+    border-radius: 15px;
+    border-image-slice: 1;
+    padding: 5px 20px 5px 0px;
+    margin: 40px 0px 30px 0px;
+}
+
+.bag-part h2 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.shoes-part {
+    background-image: linear-gradient(#3a32e1, #6380f4);
+    border-radius: 15px;
+    border-image-slice: 1;
+    padding: 5px 20px 5px 0px;
+    margin: 40px 0px 30px 0px;
+}
+
+.shoes-part h2 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 600;
+}
+
 /*categoris part end*/
 /*shoes area start*/
 .card {
     background-color: #f4ecec;
 }
-.card{
+
+.card {
     box-shadow: 8px 5px 9px #e9e6e6;
 }
 
-.shoes-area-content h2{
-    font-size:35px;
+.shoes-area-content h2 {
+    font-size: 35px;
     font-weight: 400;
-    color:#212529;
-    padding-top:30px;
+    color: #212529;
+    padding-top: 33px;
     padding-bottom: 4px;
 }
+
 /*its for shoes-area-one*/
-.shoes-part-one h5{
-    color:#212529;
-    font-size:25px;
+.shoes-part-one h5 {
+    color: #212529;
+    font-size: 25px;
     font-weight: 500;
-    padding-bottom:5px;
+    padding-bottom: 5px;
 }
-.shoes-part-one p{
-    color:#6c7075;
-    font-size:15px;
+
+.shoes-part-one p {
+    color: #6c7075;
+    font-size: 15px;
     font-weight: 300;
-    padding-bottom:5px;
-    width:98%;
+    padding-bottom: 5px;
+    width: 98%;
     text-align: left;
 }
-.shoes-part-one h4{
-    color:#212529;
-    font-size:25px;
+
+.shoes-part-one h4 {
+    color: #212529;
+    font-size: 25px;
     font-weight: 500;
-    padding-bottom:5px;
+    padding-bottom: 5px;
 }
+
 /*its for shoes-area-two*/
-.shoes-part-two h5{
-    color:#212529;
-    font-size:25px;
+.shoes-part-two h5 {
+    color: #212529;
+    font-size: 25px;
     font-weight: 500;
-    padding-bottom:5px;
+    padding-bottom: 5px;
 }
-.shoes-part-two p{
-    color:#6c7075;
-    font-size:15px;
+
+.shoes-part-two p {
+    color: #6c7075;
+    font-size: 15px;
     font-weight: 300;
-    padding-bottom:5px;
-    width:98%;
+    padding-bottom: 5px;
+    width: 98%;
     text-align: left;
 }
-.shoes-part-two h4{
-    color:#212529;
-    font-size:25px;
+
+.shoes-part-two h4 {
+    color: #212529;
+    font-size: 25px;
     font-weight: 500;
-    padding-bottom:5px;
+    padding-bottom: 5px;
 }
+
 /*its for shoes-area-three*/
-.shoes-part-three h5{
-    color:#212529;
-    font-size:25px;
+.shoes-part-three h5 {
+    color: #212529;
+    font-size: 25px;
     font-weight: 500;
-    padding-bottom:5px;
+    padding-bottom: 5px;
 }
-.shoes-part-three p{
-    color:#6c7075;
-    font-size:15px;
+
+.shoes-part-three p {
+    color: #6c7075;
+    font-size: 15px;
     font-weight: 300;
-    padding-bottom:5px;
-    width:98%;
+    padding-bottom: 5px;
+    width: 98%;
     text-align: left;
 }
-.shoes-part-three h4{
-    color:#212529;
-    font-size:25px;
+
+.shoes-part-three h4 {
+    color: #212529;
+    font-size: 25px;
     font-weight: 500;
-    padding-bottom:5px;
+    padding-bottom: 5px;
 }
+
 /* its for btn-custom-2 area*/
 
-.btn-custom-2{
+.btn-custom-2 {
     font-size: 16px;
     font-weight: 400;
-    background-color:#ff247a;
-    color:#ffffff;
-    padding:5px 14px;
+    background-color: #ff247a;
+    color: #ffffff;
+    padding: 5px 14px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.btn-custom-2:hover{
-    color:#ffffff;
+
+.btn-custom-2:hover {
+    color: #ffffff;
 }
+
 /*shoes area end*/
 /*backpack-area start*/
-.backpack-area-content h2{
-    font-size:35px;
+.backpack-area-content h2 {
+    font-size: 35px;
     font-weight: 400;
-    color:#212529;
-    padding-top:45px;
+    color: #212529;
+    padding-top: 45px;
     padding-bottom: 4px;
 }
+
 /*its for backpack-area-one*/
-.backpack-part-one h5{
-    color:#212529;
-    font-size:25px;
+.backpack-part-one h5 {
+    color: #212529;
+    font-size: 25px;
     font-weight: 500;
-    padding-bottom:5px;
+    padding-bottom: 5px;
 }
-.backpack-part-one p{
-    color:#6c7075;
-    font-size:15px;
+
+.backpack-part-one p {
+    color: #6c7075;
+    font-size: 15px;
     font-weight: 300;
-    padding-bottom:5px;
-    width:98%;
+    padding-bottom: 5px;
+    width: 98%;
     text-align: left;
 }
-.backpack-part-one h4{
-    color:#212529;
-    font-size:25px;
+
+.backpack-part-one h4 {
+    color: #212529;
+    font-size: 25px;
     font-weight: 500;
-    padding-bottom:5px;
+    padding-bottom: 5px;
 }
+
 /*its for backpack-area-two*/
-.backpack-part-two h5{
-    color:#212529;
-    font-size:25px;
+.backpack-part-two h5 {
+    color: #212529;
+    font-size: 25px;
     font-weight: 500;
-    padding-bottom:5px;
+    padding-bottom: 5px;
 }
-.backpack-part-two p{
-    color:#6c7075;
-    font-size:15px;
+
+.backpack-part-two p {
+    color: #6c7075;
+    font-size: 15px;
     font-weight: 300;
-    padding-bottom:5px;
-    width:98%;
+    padding-bottom: 5px;
+    width: 98%;
     text-align: left;
 }
-.backpack-part-two h4{
-    color:#212529;
-    font-size:25px;
+
+.backpack-part-two h4 {
+    color: #212529;
+    font-size: 25px;
     font-weight: 500;
-    padding-bottom:5px;
+    padding-bottom: 5px;
 }
+
 /*its for backpack-area-three*/
-.backpack-part-three h5{
-    color:#212529;
-    font-size:25px;
+.backpack-part-three h5 {
+    color: #212529;
+    font-size: 25px;
     font-weight: 500;
-    padding-bottom:5px;
+    padding-bottom: 5px;
 }
-.backpack-part-three p{
-    color:#6c7075;
-    font-size:15px;
+
+.backpack-part-three p {
+    color: #6c7075;
+    font-size: 15px;
     font-weight: 300;
-    padding-bottom:5px;
-    width:98%;
+    padding-bottom: 5px;
+    width: 98%;
     text-align: left;
 }
-.backpack-part-three h4{
-    color:#212529;
-    font-size:25px;
+
+.backpack-part-three h4 {
+    color: #212529;
+    font-size: 25px;
     font-weight: 500;
-    padding-bottom:5px;
+    padding-bottom: 5px;
 }
+
 /* its for btn-custom-2 area*/
 
-.btn-custom-2{
+.btn-custom-2 {
     font-size: 16px;
     font-weight: 400;
-    background-color:#ff247a;
-    color:#ffffff;
-    padding:5px 14px;
+    background-color: #ff247a;
+    color: #ffffff;
+    padding: 5px 14px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.btn-custom-2:hover{
-    color:#ffffff;
+
+.btn-custom-2:hover {
+    color: #ffffff;
 }
+
 /*backpack area end*/
+/*contact area start*/
+.contact-area {
+    background-color: #e6b6c6;
+    padding-right: 10%;
+    margin-top: 52px;
+
+}
+
+.contact-part {
+    padding: 30px;
+    margin-top: 20px;
+    margin-left: 39%;
+}
+
+.contact-part h2 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #3a3f44;
+    margin-top: 8px;
+
+}
+
+.contact-part h5 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #353c42;
+    margin-top: 10px;
+
+}
+
+/*its for email area*/
+.email-area input[type="text"] {
+    background-color: #ffffff;
+    border: 1px solid #dce0e4;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 7px 14px 7px 10px;
+    margin-top: 5px;
+    border-radius: 4px;
+}
+
+/*its for submit area*/
+.submit-area input[type="submit"] {
+    font-size: 15px;
+    font-weight: 300;
+    color: #ffffff;
+    margin-top: 12px;
+    background-color: #ff247a;
+    border: 1px solid #fa619e;
+    padding: 5px 12px;
+    border-radius: 4px;
+}
+
+/*contact area end*/
+/*footer area start*/
+.footer-part h4 {
+    font-size: 14px;
+    font-weight: 300;
+    color: #8d9296;
+    text-align: center;
+    padding: 19px 0px 30px 0px;
+}
+
+.footer-part .name {
+    color: #ec759d;
+}
+
+.footer-part .copy {
+    font-size: 16px;
+    color: #8d9296;
+}
+
+/*footer area end*/
