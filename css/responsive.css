@@ -1,61 +1,1137 @@
 /*Extra small device(smart phones, less than 361px)*/
-@media (max-width: 360.98px){
+@media (max-width: 360.98px) {
 
-}
-/*Extra small device(portrant phones, 361px and up)*/
-@media (min-width: 361px) and (max-width: 575.98px){
-
-}
-/*Small device(landscape phones, 576px and up)*/
-@media (min-width: 576px) and (max-width: 767.98px){
-
-}
-/*medium device(tablets, 768px and up)*/
-@media (min-width: 768px) and (max-width: 991.98px){
- .my-content{
-     text-align: center;
- }
- .img-fluid {
-    max-width: 59%;
-   
-}
-.slider-image{
-    margin-top: 40px;
-    margin-left: 27%;
-}
-}
-}
-/*large device(desktops, 992px and up)*/
-@media (min-width: 992px) and (max-width: 1199.98px){
-    .my-content h1 {
-        font-size: 47px;  
+    /*slider area start*/
+    .my-content {
+        text-align: center;
     }
+
+    .my-content h1 {
+        font-size: 24px;
+    }
+
+    .my-content p {
+        font-size: 9px;
+    }
+
+    .my-content h2 {
+        font-size: 21px;
+
+    }
+
+    .btn-custom {
+        font-size: 10px;
+        margin-top: 4px;
+        margin-bottom: 20px;
+    }
+
+    .img-fluid {
+        max-width: 63%;
+    }
+
+    .slider-image {
+        margin-left: 60px;
+    }
+
+    .tv h1 {
+        font-size: 17px;
+    }
+
+    /*slider area end*/
+    /*categoris area start*/
+    .watch-content {
+        text-align: center;
+    }
+
+    .watch-image {
+        margin-left: 103px;
+        margin-right: 45px;
+
+    }
+
+    .watch-part h2 {
+        font-size: 27px;
+        margin-top: 20px;
+    }
+
+    .bag-content {
+        text-align: center;
+    }
+
+    .bag-image {
+        margin-left: 103px;
+        margin-right: 45px;
+
+    }
+
+    .bag-part h2 {
+        font-size: 27px;
+        margin-top: 20px;
+    }
+
+    .shoes-content {
+        text-align: center;
+    }
+
+    .shoes-image {
+        margin-left: 103px;
+        margin-right: 45px;
+
+    }
+
+    .shoes-part h2 {
+        font-size: 27px;
+        margin-top: 20px;
+    }
+
+    /*categoris area end*/
+    /*shoes area start*/
+    .card {
+        margin-bottom: 30px;
+    }
+
+    .card-body {
+        padding: 0.25rem;
+    }
+
+    .card-img,
+    .card-img-bottom,
+    .card-img-top {
+        width: 69%;
+        margin-left: 40px;
+    }
+
+    .shoes-area-content {
+        text-align: center;
+    }
+
+    .shoes-part-bg {
+        text-align: center;
+    }
+
+    .shoes-area-content h2 {
+        font-size: 30px;
+        padding-top: 20px;
+        padding-bottom: 4px;
+    }
+
+    .shoes-part-one h5 {
+        font-size: 20px;
+        padding-bottom: 2px;
+
+    }
+
+    .shoes-part-one p {
+        font-size: 12px;
+        width: 90%;
+        text-align: center;
+        margin-left: 15px;
+    }
+
+    .shoes-part-one h4 {
+        font-size: 18px;
+        padding-bottom: 2px;
+    }
+
+    .btn-custom-2 {
+        font-size: 10px;
+        padding: 4px 10px;
+    }
+
+    .shoes-part-two h5 {
+        font-size: 20px;
+        padding-bottom: 2px;
+
+    }
+
+    .shoes-part-two p {
+        font-size: 12px;
+        width: 90%;
+        text-align: center;
+        margin-left: 15px;
+
+    }
+
+    .shoes-part-two h4 {
+        font-size: 18px;
+        padding-bottom: 2px;
+    }
+
+    .shoes-part-three h5 {
+        font-size: 20px;
+        padding-bottom: 2px;
+
+    }
+
+    .shoes-part-three p {
+        font-size: 12px;
+        width: 90%;
+        text-align: center;
+        margin-left: 15px;
+    }
+
+    .shoes-part-three h4 {
+        font-size: 18px;
+        padding-bottom: 2px;
+    }
+
+    /*shoes area end*/
+    /*backpack area start*/
+    .backpack-area-content {
+        text-align: center;
+    }
+
+    .backpack-part-bg {
+        text-align: center;
+    }
+
+    .backpack-area-content h2 {
+        font-size: 30px;
+        padding-top: 30px;
+        padding-bottom: 4px;
+    }
+
+    .backpack-part-one h5 {
+        font-size: 20px;
+        padding-top: 10px;
+
+    }
+
+    .backpack-part-one p {
+        font-size: 12px;
+        width: 90%;
+        text-align: center;
+        margin-left: 15px;
+    }
+
+    .backpack-part-one h4 {
+        font-size: 15px;
+        padding-top: 0px;
+
+    }
+
+    .btn-custom-2 {
+        font-size: 10px;
+        padding: 4px 10px;
+    }
+
+    .backpack-part-two h5 {
+        font-size: 20px;
+        padding-top: 10px;
+
+    }
+
+    .backpack-part-two p {
+        font-size: 12px;
+        width: 90%;
+        text-align: center;
+        margin-left: 15px;
+
+    }
+
+    .backpack-part-two h4 {
+        font-size: 18px;
+        padding-bottom: 2px;
+    }
+
+    .backpack-part-three h5 {
+        font-size: 20px;
+        padding-top: 10px;
+
+    }
+
+    .backpack-part-three p {
+        font-size: 12px;
+        width: 90%;
+        text-align: center;
+        margin-left: 15px;
+    }
+
+    .backpack-part-three h4 {
+        font-size: 18px;
+        padding-bottom: 2px;
+    }
+
+    /*backpack area end*/
+    /*contact area start*/
+    .contact-part {
+        margin-left: 12%;
+        margin-right: 7%;
+    }
+
+    .contact-part h2 {
+        font-size: 16px;
+
+    }
+
+    .contact-part h5 {
+        font-size: 8px;
+    }
+
+    /*its for email area*/
+    .email-area input[type="text"] {
+        font-size: 10px;
+        padding: 5px 5px 5px 10px;
+    }
+
+    /*its for submit area*/
+    .submit-area input[type="submit"] {
+        font-size: 10px;
+        padding: 5px 10px;
+    }
+
+    /*contact area end*/
+    /*footer area start*/
+    .footer-part h4 {
+        font-size: 8px;
+    }
+
+    .footer-part .copy {
+        font-size: 10px;
+    }
+
+    /*footer area end*/
+}
+
+/*Extra small device(portrant phones, 361px and up)*/
+@media (min-width: 361px) and (max-width: 575.98px) {
+    .my-content {
+        text-align: center;
+    }
+
+    .my-content h1 {
+        font-size: 24px;
+    }
+
+    .my-content p {
+        font-size: 9px;
+    }
+
+    .my-content h2 {
+        font-size: 21px;
+
+    }
+
+    .btn-custom {
+        font-size: 10px;
+        margin-top: 4px;
+        margin-bottom: 20px;
+    }
+
+    .img-fluid {
+        max-width: 63%;
+    }
+
+    .slider-image {
+        margin-left: 60px;
+    }
+
+    .tv h1 {
+        font-size: 17px;
+    }
+
+    .watch-content {
+        text-align: center;
+    }
+
+    .watch-image {
+        margin-left: 103px;
+        margin-right: 45px;
+
+    }
+
+    .watch-part h2 {
+        font-size: 27px;
+        margin-top: 20px;
+    }
+
+    .bag-content {
+        text-align: center;
+    }
+
+    .bag-image {
+        margin-left: 103px;
+        margin-right: 45px;
+
+    }
+
+    .bag-part h2 {
+        font-size: 27px;
+        margin-top: 20px;
+    }
+
+    .shoes-content {
+        text-align: center;
+    }
+
+    .shoes-image {
+        margin-left: 103px;
+        margin-right: 45px;
+
+    }
+
+    .shoes-part h2 {
+        font-size: 27px;
+        margin-top: 20px;
+    }
+
+    .card {
+        margin-bottom: 30px;
+    }
+
+    .card-body {
+        padding: 0.25rem;
+    }
+
+    .card-img,
+    .card-img-bottom,
+    .card-img-top {
+        width: 69%;
+        margin-left: 40px;
+    }
+
+    .shoes-area-content {
+        text-align: center;
+    }
+
+    .shoes-part-bg {
+        text-align: center;
+    }
+
+    .shoes-area-content h2 {
+        font-size: 30px;
+        padding-top: 20px;
+        padding-bottom: 4px;
+    }
+
+    .shoes-part-one h5 {
+        font-size: 20px;
+        padding-bottom: 2px;
+
+    }
+
+    .shoes-part-one p {
+        font-size: 12px;
+        width: 90%;
+        text-align: center;
+        margin-left: 15px;
+    }
+
+    .shoes-part-one h4 {
+        font-size: 18px;
+        padding-bottom: 2px;
+    }
+
+    .btn-custom-2 {
+        font-size: 10px;
+        padding: 4px 10px;
+    }
+
+    .shoes-part-two h5 {
+        font-size: 20px;
+        padding-bottom: 2px;
+
+    }
+
+    .shoes-part-two p {
+        font-size: 12px;
+        width: 90%;
+        text-align: center;
+        margin-left: 15px;
+
+    }
+
+    .shoes-part-two h4 {
+        font-size: 18px;
+        padding-bottom: 2px;
+    }
+
+    .shoes-part-three h5 {
+        font-size: 20px;
+        padding-bottom: 2px;
+
+    }
+
+    .shoes-part-three p {
+        font-size: 12px;
+        width: 90%;
+        text-align: center;
+        margin-left: 15px;
+    }
+
+    .shoes-part-three h4 {
+        font-size: 18px;
+        padding-bottom: 2px;
+    }
+
+    /*shoes area end*/
+    /*backpack area start*/
+    .backpack-area-content {
+        text-align: center;
+    }
+
+    .backpack-part-bg {
+        text-align: center;
+    }
+
+    .backpack-area-content h2 {
+        font-size: 30px;
+        padding-top: 30px;
+        padding-bottom: 4px;
+    }
+
+    .backpack-part-one h5 {
+        font-size: 20px;
+        padding-top: 10px;
+
+    }
+
+    .backpack-part-one p {
+        font-size: 12px;
+        width: 90%;
+        text-align: center;
+        margin-left: 15px;
+    }
+
+    .backpack-part-one h4 {
+        font-size: 15px;
+        padding-top: 0px;
+
+    }
+
+    .btn-custom-2 {
+        font-size: 10px;
+        padding: 4px 10px;
+    }
+
+    .backpack-part-two h5 {
+        font-size: 20px;
+        padding-top: 10px;
+
+    }
+
+    .backpack-part-two p {
+        font-size: 12px;
+        width: 90%;
+        text-align: center;
+        margin-left: 15px;
+
+    }
+
+    .backpack-part-two h4 {
+        font-size: 18px;
+        padding-bottom: 2px;
+    }
+
+    .backpack-part-three h5 {
+        font-size: 20px;
+        padding-top: 10px;
+
+    }
+
+    .backpack-part-three p {
+        font-size: 12px;
+        width: 90%;
+        text-align: center;
+        margin-left: 15px;
+    }
+
+    .backpack-part-three h4 {
+        font-size: 18px;
+        padding-bottom: 2px;
+    }
+
+    /*backpack area end*/
+    /*contact area start*/
+    .contact-part {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .contact-part h2 {
+        font-size: 16px;
+
+    }
+
+    .contact-part h5 {
+        font-size: 8px;
+    }
+
+    /*its for email area*/
+    .email-area input[type="text"] {
+        font-size: 10px;
+        padding: 5px 5px 5px 10px;
+    }
+
+    /*its for submit area*/
+    .submit-area input[type="submit"] {
+        font-size: 10px;
+        padding: 5px 10px;
+    }
+
+    /*contact area end*/
+    /*footer area start*/
+    .footer-part h4 {
+        font-size: 8px;
+    }
+
+    .footer-part .copy {
+        font-size: 10px;
+    }
+
+    /*footer area end*/
+}
+
+/*Small device(landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .row {
+        flex-wrap: nowrap;
+    }
+
+    .my-content h1 {
+        font-size: 20px;
+    }
+
+    .tv h1 {
+        font-size: 17px;
+    }
+
+    .my-content p {
+        font-size: 10px;
+        width: 95%;
+    }
+
+    .my-content h2 {
+        font-size: 25px;
+
+    }
+
+    .btn-custom {
+        font-size: 12px;
+        font-weight: 400;
+        padding: 5px 11px;
+    }
+
+    .slider-image {
+        margin-left: 7px;
+        margin-top: 23px;
+    }
+
+    .img-fluid {
+        max-width: 70%;
+    }
+
+    .watch-image {
+        float: right;
+        width: 200%;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .watch-part {
+        padding: 0px;
+    }
+
+    .watch-part h2 {
+        font-size: 18px;
+        padding: 0px;
+
+    }
+
+    .bag-image {
+        float: right;
+        width: 130%;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .bag-part {
+        padding: 0px;
+    }
+
+    .bag-content h2 {
+        font-size: 18px;
+        padding: 0px;
+
+    }
+
+    .shoes-image {
+        float: right;
+        width: 180%;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .shoes-part {
+        padding: 0px;
+    }
+
+    .shoes-content h2 {
+        font-size: 18px;
+        padding: 0px;
+
+    }
+
+    /*shose area start*/
+    .shoes-area-content h2 {
+        font-size: 25px;
+        padding-top: 20px;
+        padding-bottom: 4px;
+    }
+
+    .shoes-part-one h5 {
+        font-size: 18px;
+        padding-bottom: 2px;
+
+    }
+
+    .shoes-part-one p {
+        font-size: 8px;
+        width: 90%;
+        text-align: left;
+    }
+
+    .shoes-part-one h4 {
+        font-size: 18px;
+        padding-bottom: 2px;
+    }
+
+    .btn-custom-2 {
+        font-size: 10px;
+        padding: 4px 10px;
+    }
+
+    .shoes-part-two h5 {
+        font-size: 18px;
+        padding-bottom: 2px;
+
+    }
+
+    .shoes-part-two p {
+        font-size: 8px;
+        width: 90%;
+        text-align: left;
+
+    }
+
+    .shoes-part-two h4 {
+        font-size: 18px;
+        padding-bottom: 2px;
+    }
+
+    .shoes-part-three h5 {
+        font-size: 18px;
+        padding-bottom: 2px;
+
+    }
+
+    .shoes-part-three p {
+        font-size: 8px;
+        width: 90%;
+        text-align: left;
+    }
+
+    .shoes-part-three h4 {
+        font-size: 18px;
+        padding-bottom: 2px;
+    }
+
+    /*shoes area end*/
+    /*backpack area start*/
+    .card-body {
+        padding: 0.25rem;
+    }
+
+    .backpack-area-content h2 {
+        font-size: 25px;
+        padding-top: 30px;
+        padding-bottom: 4px;
+    }
+
+    .backpack-part-one h5 {
+        font-size: 14px;
+        padding-top: 10px;
+
+    }
+
+    .backpack-part-one p {
+        font-size: 8px;
+        width: 90%;
+        text-align: left;
+        padding-bottom: 0px;
+    }
+
+    .backpack-part-one h4 {
+        font-size: 15px;
+        padding-top: 0px;
+
+    }
+
+    .btn-custom-2 {
+        font-size: 10px;
+        padding: 4px 10px;
+    }
+
+    .backpack-part-two h5 {
+        font-size: 14px;
+        padding-top: 10px;
+
+    }
+
+    .backpack-part-two p {
+        font-size: 8px;
+        width: 90%;
+        text-align: left;
+
+    }
+
+    .backpack-part-two h4 {
+        font-size: 18px;
+        padding-bottom: 2px;
+    }
+
+    .backpack-part-three h5 {
+        font-size: 14px;
+        padding-top: 10px;
+
+    }
+
+    .backpack-part-three p {
+        font-size: 8px;
+        width: 90%;
+        text-align: left;
+    }
+
+    .backpack-part-three h4 {
+        font-size: 18px;
+        padding-bottom: 2px;
+    }
+
+    /*backpack area end*/
+    /*contact area start*/
+    .contact-part {
+        margin-left: 30%;
+    }
+
+    .contact-part h2 {
+        font-size: 24px;
+
+    }
+
+    .contact-part h5 {
+        font-size: 12px;
+    }
+
+    /*its for email area*/
+    .email-area input[type="text"] {
+        font-size: 12px;
+        padding: 5px 5px 5px 10px;
+    }
+
+    /*its for submit area*/
+    .submit-area input[type="submit"] {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+
+    /*contact area end*/
+    /*footer area start*/
+    .footer-part h4 {
+        font-size: 10px;
+    }
+
+    .footer-part .copy {
+        font-size: 11px;
+    }
+
+    /*footer area end*/
+}
+
+/*medium device(tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .row {
+        flex-wrap: nowrap;
+    }
+
+    .my-content h1 {
+        font-size: 25px;
+    }
+
+    .tv h1 {
+        font-size: 25px;
+    }
+
+    .my-content p {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .my-content h2 {
+        font-size: 30px;
+
+    }
+
+    .btn-custom {
+        font-size: 15px;
+        font-weight: 400;
+        padding: 5px 13px;
+    }
+
+    .slider-image {
+        margin-left: 70px;
+    }
+
+    .img-fluid {
+        max-width: 90%;
+    }
+
+    .watch-image {
+        float: right;
+        margin-bottom: 24px;
+        margin-top: 24px;
+        width: 100%;
+    }
+
+    .watch-part {
+        padding: 0px;
+    }
+
+    .watch-part h2 {
+        font-size: 25px;
+    }
+
+    .bag-image {
+        float: right;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .bag-part {
+        padding: 0px;
+    }
+
+    .bag-content h2 {
+        font-size: 25px;
+    }
+
+    .shoes-image {
+        float: right;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .shoes-part {
+        padding: 0px;
+    }
+
+    .shoes-content h2 {
+        font-size: 25px;
+
+    }
+
+    /*shose area start*/
+    .shoes-part-one h5 {
+        font-size: 23px;
+        padding-bottom: 2px;
+
+    }
+
+    .shoes-part-one p {
+        font-size: 12px;
+        width: 100%;
+        padding-top: 2px;
+        padding-bottom: 2px;
+
+    }
+
+    .shoes-part-one h4 {
+        font-size: 23px;
+        padding-bottom: 2px;
+    }
+
+    .btn-custom-2 {
+        font-size: 14px;
+        padding: 4px 14px;
+    }
+
+    .shoes-part-two h5 {
+        font-size: 23px;
+        padding-bottom: 2px;
+
+    }
+
+    .shoes-part-two p {
+        font-size: 12px;
+        width: 100%;
+        padding-top: 2px;
+        padding-bottom: 2px;
+
+    }
+
+    .shoes-part-two h4 {
+        font-size: 23px;
+        padding-bottom: 2px;
+    }
+
+    .shoes-part-three h5 {
+        font-size: 23px;
+        padding-bottom: 2px;
+
+    }
+
+    .shoes-part-three p {
+        font-size: 12px;
+        width: 100%;
+        padding-top: 2px;
+        padding-bottom: 2px;
+
+    }
+
+    .shoes-part-three h4 {
+        font-size: 23px;
+        padding-bottom: 2px;
+    }
+
+    /*shoes area end*/
+    /*backpack area start*/
+    .backpack-part-one h5 {
+        font-size: 23px;
+        padding-bottom: 2px;
+
+    }
+
+    .backpack-part-one p {
+        font-size: 12px;
+        width: 100%;
+        padding-top: 2px;
+        padding-bottom: 2px;
+
+    }
+
+    .backpack-part-one h4 {
+        font-size: 23px;
+        padding-bottom: 2px;
+    }
+
+    .backpack-part-two h5 {
+        font-size: 22px;
+        padding-bottom: 2px;
+
+    }
+
+    .backpack-part-two p {
+        font-size: 12px;
+        width: 100%;
+        padding-top: 2px;
+        padding-bottom: 2px;
+
+    }
+
+    .backpack-part-two h4 {
+        font-size: 23px;
+        padding-bottom: 2px;
+    }
+
+    .backpack-part-three h5 {
+        font-size: 21px;
+        padding-bottom: 2px;
+
+    }
+
+    .backpack-part-three p {
+        font-size: 12px;
+        width: 100%;
+        padding-top: 2px;
+        padding-bottom: 2px;
+
+    }
+
+    .backpack-part-three h4 {
+        font-size: 23px;
+    }
+
+    /*backpack area end*/
+    /*contact area start*/
+    .contact-part {
+        margin-left: 32%;
+    }
+
+    .contact-part h2 {
+        font-size: 26px;
+
+    }
+
+    .contact-part h5 {
+        font-size: 13px;
+    }
+
+    /*its for email area*/
+    .email-area input[type="text"] {
+        font-size: 13px;
+        padding: 5px 5px 5px 10px;
+    }
+
+    /*its for submit area*/
+    .submit-area input[type="submit"] {
+        font-size: 13px;
+        padding: 5px 10px;
+    }
+
+    /*contact area end*/
+    /*footer area start*/
+    .footer-part h4 {
+        font-size: 12px;
+    }
+
+    .footer-part .copy {
+        font-size: 14px;
+    }
+
+    /*footer area end*/
+}
+
+/*large device(desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .my-content h1 {
+        font-size: 47px;
+    }
+
     .contact-part {
         margin-left: 34%;
+
     }
+
     .shoes-part-one p {
         font-size: 12px;
     }
+
     .shoes-part-two p {
         font-size: 12px;
     }
+
     .shoes-part-three p {
         font-size: 12px;
     }
+
     .backpack-part-one p {
         font-size: 12px;
     }
+
     .backpack-part-two p {
         font-size: 12px;
     }
+
     .backpack-part-three p {
         font-size: 12px;
     }
 }
+
 /*Extra large device(large desktops,1200px and up)*/
-@media (min-width: 1200px){
+@media (min-width: 1200px) {
     .contact-part {
-        margin-left: 37%;
+        margin-left: 39%;
     }
 
 }
